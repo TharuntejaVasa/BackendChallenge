@@ -1,0 +1,12 @@
+###
+
+POST http://localhost:3000/api/calculate-total
+Content-Type: application/json
+
+{
+  "products": [
+    { "name": "Product 1", "price": 100, "quantity": 2 },
+    { "name": "Product 2", "price": 50, "quantity": 5 }
+  ]
+}
+
